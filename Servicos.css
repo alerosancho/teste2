@@ -1,0 +1,78 @@
+body {}
+#logo {width: 25%;}
+
+	header {background: #bbbbbb;
+		padding: 20px 0;
+	}
+		.caixa {
+			position: relative;
+			width: 940px;
+			margin: 0 auto;
+		}
+			.texto2 {color: #10150f; font-size: 14px; font-weight: bold;}
+			nav {
+				position: absolute;
+				top: 110px;
+				right: 0;
+			}
+
+		nav li {display: inline; margin: 0 0 0 15px;
+		}
+
+	nav a {text-transform: uppercase; color: #000000;
+		font-weight: bold; font-size: 22px; text-decoration: none;
+	}
+		nav a:hover {
+			color: #c78c19;
+			text-decoration: underline;
+		}
+		.servicos {
+			text-align: center;
+			width: 940px;
+			margin: 0 auto;
+			padding: 50px 0;
+		}
+		.servicos li {
+			display: inline-block;
+			text-align: center;
+			width: 23%;
+			vertical-align: top;
+			padding: 30px 20px;
+			box-sizing: border-box;
+			margin-left: 20px;
+			border: 2px dotted; #000000;
+			border-radius: 10px;
+		}
+		.servicos li:hover {
+			color: #c78c19;
+			}
+		.servicos li:active {
+			color: #088c19;
+		}
+		.servicos li:hover h2 {
+			font-size: 28px;
+		}
+			
+			.foto {
+				width: 60%;
+			}
+			.servicos h2 {
+				font-size: 24px;
+				font-weight: bold;
+			}
+			.servico-descricao {
+				font-size: 20px;
+				font-weight: bold;
+				margin-top: 10px;
+			}
+			footer {
+				text-align: center;
+				background: url(bg.jpg);
+				padding: 40px 0;
+			}
+			#logoroda {width: 12%;}
+			.copyright {
+				color: white;
+				font-size: 13px;
+				margin: 20px 0 0;
+			}

@@ -1,0 +1,62 @@
+ body {}
+ #logo {width: 25%;}
+
+     header {background: #bbbbbb;
+        padding: 20px 0;}
+        .caixa {
+            position: relative;
+            width: 940px;
+            margin: 0 auto;
+        }
+            .texto2 {color: #10150f; font-size: 14px; font-weight: bold;}
+            nav {
+                position: absolute;
+                top: 110px;
+                right: 0;
+            }
+
+        nav li {display: inline; margin: 0 0 0 15px;
+        }
+
+    nav a {text-transform: uppercase; color: #000000;
+        font-weight: bold; font-size: 22px; text-decoration: none;
+    }
+        nav a:hover {
+            color: #c78c19;
+            text-decoration: underline;
+        }
+
+ .sobre { padding: 30px;
+    font-weight: bold;}
+
+           #missao {font-size: 20px;}
+
+    #teste {font-size: 18px;}
+
+            .text-sobre {text-align: center;}
+
+    b {color: red; font-weight: bold;}
+
+            h2 {text-align: center; font-size: 26px;}
+
+                .itens {font-style: italic; font-size: 18px; color: black; padding: 20px;}
+
+        h3 {font-size: 22px;}
+
+        .servicos {background: white; padding: 20px;}
+
+    ul {display: inline-block; vertical-align: top;}
+
+    .fotos {width: 20%;}
+
+    footer {
+                text-align: center;
+                background: url(bg.jpg);
+                padding: 40px 0;
+            }
+            #logoroda {width: 12%;}
+            .copyright {
+                color: white;
+                font-size: 13px;
+                margin: 20px 0 0;
+            }
